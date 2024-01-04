@@ -223,8 +223,8 @@ public class BrowserUtils {
         int counter = 0;
         while (counter < attempts) {
             try {
-               clickWithJS(Driver.get().findElement(by));
-               break;
+                clickWithJS(Driver.get().findElement(by));
+                break;
 
             } catch (WebDriverException e) {
                 e.printStackTrace();
